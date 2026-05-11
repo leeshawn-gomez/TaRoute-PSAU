@@ -19,14 +19,14 @@ min-height:100%;
 overflow:hidden;
 }
 
-/* BODY */
+
 body{
 display:flex;
 height:100vh;
 background:#f5f5f5;
 }
 
-/* SIDEBAR */
+
 .sidebar{
 width:260px;
 background:#84B179;
@@ -70,7 +70,7 @@ font-weight:bold;
 cursor:pointer;
 }
 
-/* MAIN */
+
 .main{
 flex:1;
 display:flex;
@@ -80,7 +80,7 @@ height:100vh;
 overflow:hidden;
 }
 
-/* HEADER */
+
 .header{
 background:#84B179;
 color:white;
@@ -97,7 +97,7 @@ display:none;
 font-size:22px;
 }
 
-/* NAV */
+
 .nav-box{
 padding:8px 12px;
 background:#BBD8A3;
@@ -150,7 +150,7 @@ font-size:12px;
 margin-top:2px;
 }
 
-/* MAP */
+
 .map-container{
 flex:1;
 position:relative;
@@ -172,7 +172,7 @@ background-color:white;
 margin:auto;
 }
 
-/* ROUTES */
+
 #routeLayer{
 position:absolute;
 inset:0;
@@ -182,7 +182,7 @@ z-index:5;
 pointer-events:none;
 }
 
-/* AREA POINTS */
+
 .area{
 position:absolute;
 width:14px;
@@ -194,7 +194,7 @@ cursor:pointer;
 z-index:20;
 }
 
-/* MODAL */
+
 .modal{
   position:fixed;
   top:0;
@@ -261,14 +261,14 @@ transition:.2s;
 z-index:999;
 }
 
-/* MOBILE */
+
 @media (max-width:768px){
 
 body{
 overflow:hidden;
 }
 
-/* Sidebar drawer */
+
 .sidebar{
 position:fixed;
 left:-260px;
@@ -285,7 +285,6 @@ left:0;
 display:block;
 }
 
-/* Main layout */
 .main{
 display:flex;
 flex-direction:column;
@@ -293,7 +292,6 @@ height:100dvh;
 overflow:hidden;
 }
 
-/* FIXED MOBILE NAV */
 .nav-box{
 display:flex;
 flex-direction:row;
@@ -314,7 +312,6 @@ min-width:100px;
 font-size:12px;
 }
 
-/* THIS FIXES THE GIANT BOXES */
 .nav-box select{
 width:100%;
 height:36px;
@@ -327,7 +324,6 @@ appearance:auto;
 -webkit-appearance:menulist;
 }
 
-/* Button */
 .nav-box button{
 height:36px;
 border:none;
@@ -339,7 +335,6 @@ padding:0 14px;
 flex-shrink:0;
 }
 
-/* MAP TAKES REMAINING SPACE */
 .map-container{
 flex:1;
 overflow:auto;
@@ -347,7 +342,6 @@ padding:5px;
 -webkit-overflow-scrolling:touch;
 }
 
-/* Keep large interactive map */
 .map{
 width:1200px;
 height:900px;
@@ -373,7 +367,7 @@ min-height:0;
 }
 
 
-/* SMALLER PHONES */
+
 @media (max-width:480px){
 
 .header h3{
